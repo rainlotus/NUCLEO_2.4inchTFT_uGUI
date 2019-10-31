@@ -1,0 +1,11 @@
+该文件说明原始程序所用的TFT板子和现在用的板子在实际接线方面的差异
+A板指arduino板对应接口，N板指nucleo板对应的原始管脚编号
+      原始板                                修改板
+    A板  N板  所用资源                  A板  N板  所用资源
+Y+  A2  PA4   ADC1_IN4,EXIT4     YP     A3   PB0   ADC2_IN8, EXIT0
+Y-  D6  PB10   IO                YM     D9   PC7     IO
+
+X+  D7  PA8    IO                XP     D8   PA9     IO
+X-  A1  PA1   ADC2_IN1           XM     A2   PA4    ADC1_IN4
+
+
